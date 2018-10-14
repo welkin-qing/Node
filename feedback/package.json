@@ -1,7 +1,7 @@
 {
   "name": "feedback",
   "version": "1.0.0",
-  "description": "",
+  "description": "一个简单的留言板实例",
   "main": "app.js",
   "dependencies": {
     "_art-template@4.13.1@art-template": "^4.13.1",
