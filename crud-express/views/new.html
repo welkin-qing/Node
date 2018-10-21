@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+    <title>学生信息页面</title>
+    <!-- Bootstrap core CSS -->
+    <link href="/node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="/public/css/main.css" rel="stylesheet">
+</head>
+
+  <body>
+
+
+
+    <div class="container-fluid">
+
+ 
+
+          <h2 class="sub-header">添加学生</h2>
+
+          <form action="/students/new" method="post">
+            <div class="form-group">
+              <label for="">姓名</label>
+              <input type="text" name="name"class="form-control" id="" placeholder="name">
+            </div>
+            <div class="form-group">
+              <label for="">性别</label>
+              <div>
+                  <label class="radio-inline">
+                    <input type="radio" name="gender" id="inlineRadio2" value="1"> 男
+                  </label>
+                  <label class="radio-inline">
+                    <input type="radio" name="gender" id="inlineRadio3" value="0"> 女
+                  </label>
+              </div>
+            </div>
+            <div class="form-group">
+                <label for="">年龄</label>
+                <input type="text" name="age"class="form-control" id="" placeholder="age">
+              </div>
+              <div class="form-group">
+                <label for="">爱好</label>
+                <input type="text" name="hobbies"class="form-control" id="" placeholder="hobbies">
+              </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
